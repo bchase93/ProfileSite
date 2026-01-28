@@ -1,0 +1,12 @@
+﻿@model HomeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row text-center">
+    <h1>Welcome to the website</h1>
+</div>
+
+@await Html.PartialAsync("_Intro", Model.Skills)
+@* @await Html.PartialAsync("_Skills", Model.Skills) *@

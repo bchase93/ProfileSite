@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brand\\source\\repos\\MyMVCWebsite\\MyMVCWebsite\\MyMVCWebsite.csproj": {}
+    "C:\\Portfolio\\ProfileSite\\MyMVCWebsite\\MyMVCWebsite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brand\\source\\repos\\MyMVCWebsite\\MyMVCWebsite\\MyMVCWebsite.csproj": {
+    "C:\\Portfolio\\ProfileSite\\MyMVCWebsite\\MyMVCWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brand\\source\\repos\\MyMVCWebsite\\MyMVCWebsite\\MyMVCWebsite.csproj",
+        "projectUniqueName": "C:\\Portfolio\\ProfileSite\\MyMVCWebsite\\MyMVCWebsite.csproj",
         "projectName": "MyMVCWebsite",
-        "projectPath": "C:\\Users\\brand\\source\\repos\\MyMVCWebsite\\MyMVCWebsite\\MyMVCWebsite.csproj",
-        "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brand\\source\\repos\\MyMVCWebsite\\MyMVCWebsite\\obj\\",
+        "projectPath": "C:\\Portfolio\\ProfileSite\\MyMVCWebsite\\MyMVCWebsite.csproj",
+        "packagesPath": "C:\\Users\\Brandon\\.nuget\\packages\\",
+        "outputPath": "C:\\Portfolio\\ProfileSite\\MyMVCWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\brand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brandon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

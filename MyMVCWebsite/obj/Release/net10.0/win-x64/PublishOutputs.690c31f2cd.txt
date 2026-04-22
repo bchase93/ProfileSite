@@ -1,0 +1,7 @@
+C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\win-x64\PubTmp\Out\MyMVCWebsite.exe
+C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\win-x64\PubTmp\Out\appsettings.Development.json
+C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\win-x64\PubTmp\Out\appsettings.json
+C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\win-x64\PubTmp\Out\MyMVCWebsite.dll
+C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\win-x64\PubTmp\Out\MyMVCWebsite.deps.json
+C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\win-x64\PubTmp\Out\MyMVCWebsite.runtimeconfig.json
+C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\win-x64\PubTmp\Out\MyMVCWebsite.pdb

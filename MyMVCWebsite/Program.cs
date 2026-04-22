@@ -12,7 +12,7 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
+    // app.UseHsts(); // disable for Cloudflare Flexible SSL
 }
 
 // ❌ REMOVE THIS LINE for EB behind Nginx/Cloudflare

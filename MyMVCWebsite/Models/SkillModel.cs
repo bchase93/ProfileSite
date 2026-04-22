@@ -1,6 +1,6 @@
 ﻿namespace MyMVCWebsite.Models
 {
-    public class Skill
+    public class SkillModel
     {
         public string Name { get; set; }
 

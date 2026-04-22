@@ -11,7 +11,8 @@ namespace MyMVCWebsite.Controllers
             var model = new HomeViewModel()
             {
                 IntroText = "Wecome to my website",
-                Skills = await GetSkills()
+                //Skills = await GetSkills(),
+                Experience = await GetExperience()
             };
             return View(model);
         }
@@ -27,26 +28,26 @@ namespace MyMVCWebsite.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public async Task<List<Skill>> GetSkills()
+        public async Task<List<SkillModel>> GetSkills()
         {
-            var skills = new List<Skill>();
-            var skill1 = new Skill()
+            var skills = new List<SkillModel>();
+            var skill1 = new SkillModel()
             {
                 Name = "ASP.Net",
                 Proficiency = 1
             };
 
-            var skill2 = new Skill()
+            var skill2 = new SkillModel()
             {
                 Name = "MySQL",
                 Proficiency = 1
             };
-            var skill3 = new Skill()
+            var skill3 = new SkillModel()
             {
                 Name = "skill",
                 Proficiency = 1
             };
-            var skill4 = new Skill()
+            var skill4 = new SkillModel()
             {
                 Name = "andother skill",
                 Proficiency = 1
@@ -56,6 +57,24 @@ namespace MyMVCWebsite.Controllers
             skills.Add(skill3);
             skills.Add(skill4);
             return skills;
+        }
+
+        public async Task<List<ExperienceModel>> GetExperience()
+        {
+            var experience = new List<ExperienceModel>();
+            var experience1 = new ExperienceModel()
+            {
+                Title = "Software Developer",
+                Description = "Build and maintain web applications using ASP.Net and MySQL.",
+                Skills = new List<SkillModel>()
+                {
+                    new SkillModel() { Name = "ASP.Net", Proficiency = 1 },
+                    new SkillModel() { Name = "MySQL", Proficiency = 1 }
+                }
+            };
+
+            experience.Add(experience1);
+            return experience;
         }
     }
 }

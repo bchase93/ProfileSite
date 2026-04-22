@@ -2,7 +2,9 @@
 {
     public class HomeViewModel
     {
-        public IReadOnlyList<Skill> Skills { get; set; }
+        //public IReadOnlyList<SkillModel> Skills { get; set; }
+        public IReadOnlyList<ExperienceModel> Experience { get; set; }
+
         public string IntroText { get; set; }
     }
 }

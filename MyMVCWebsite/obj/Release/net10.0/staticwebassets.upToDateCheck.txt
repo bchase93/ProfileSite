@@ -62,6 +62,8 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\files\Brandon Chase - Software Developer.docx.pdf
+wwwroot\files\Resume.txt
 C:\Portfolio\ProfileSite\MyMVCWebsite\wwwroot\lib\jquery\LICENSE.txt
 C:\Portfolio\ProfileSite\MyMVCWebsite\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Portfolio\ProfileSite\MyMVCWebsite\wwwroot\lib\jquery\dist\jquery.slim.min.js
@@ -125,3 +127,4 @@ C:\Portfolio\ProfileSite\MyMVCWebsite\wwwroot\js\site.js
 C:\Portfolio\ProfileSite\MyMVCWebsite\wwwroot\favicon.ico
 C:\Portfolio\ProfileSite\MyMVCWebsite\wwwroot\css\skills.css
 C:\Portfolio\ProfileSite\MyMVCWebsite\wwwroot\css\site.css
+C:\Portfolio\ProfileSite\MyMVCWebsite\wwwroot\files\Resume.txt

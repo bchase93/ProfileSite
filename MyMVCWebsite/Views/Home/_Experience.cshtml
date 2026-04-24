@@ -3,7 +3,7 @@
 <div class="row">
         @foreach (var job in Model)
         {
-            <h3>@job.Title</h3>
+        <h3 class="text-emphasis"><a href="@job.URL" target="_blank">@job.Title</a></h3>
             <p>@job.Description</p>
             @foreach (var skill in job.Skills)
             {

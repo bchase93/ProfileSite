@@ -64,8 +64,9 @@ namespace MyMVCWebsite.Controllers
             var experience = new List<ExperienceModel>();
             var experience1 = new ExperienceModel()
             {
-                Title = "Software Developer",
+                Title = "Software Developer - Chalk Couture",
                 Description = "Build and maintain web applications using ASP.Net and MySQL.",
+                URL = "https://chalkcouture.com",
                 Skills = new List<SkillModel>()
                 {
                     new SkillModel() { Name = "ASP.Net", Proficiency = 1 },

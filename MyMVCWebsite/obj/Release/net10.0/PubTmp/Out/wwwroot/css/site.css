@@ -33,11 +33,24 @@ body {
 
 
 /* My CSS starts here */
+
+/* General Overrides */
 body {
-    background-color: #111111;
+    background-color: #18251B;
+    color: lightgray;
+}
+
+a {
+    text-decoration:none;
     color: white;
 }
 
+/* Custom Classes */
+
 .background-2 {
     background-color: #222222
+}
+
+.text-emphasis {
+    color: #fff;
 }

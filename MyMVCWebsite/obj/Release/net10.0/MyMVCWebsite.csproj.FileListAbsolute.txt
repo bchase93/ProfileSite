@@ -121,7 +121,6 @@ C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\rjsmcshtml.dswa.cache.
 C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\scopedcss\bundle\MyMVCWebsite.styles.css
 C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\scopedcss\projectbundle\MyMVCWebsite.bundle.scp.css
-C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\compressed\76k98vvd0p-{0}-q27213xtoa-q27213xtoa.gz
 C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\compressed\ne1gny24f0-{0}-u9fvkr4v8g-u9fvkr4v8g.gz
 C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\compressed\ntoxste8ci-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\compressed\vegya74xaw-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
@@ -197,3 +196,5 @@ C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\refint\MyMVCWebsite.dl
 C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\MyMVCWebsite.pdb
 C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\MyMVCWebsite.genruntimeconfig.cache
 C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\ref\MyMVCWebsite.dll
+C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\compressed\76k98vvd0p-{0}-0c0z957u2p-0c0z957u2p.gz
+C:\Portfolio\ProfileSite\MyMVCWebsite\obj\Release\net10.0\compressed\h1vgrkmn6n-{0}-dfmvlslwpf-dfmvlslwpf.gz

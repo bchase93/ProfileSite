@@ -7,6 +7,11 @@ namespace MyMVCWebsite.Models
         public string Title { get; set; }
         public string Description { get; set; }
 
+        // Using string for now, maybe DateTime later if needed
+        public string EmploymentDates { get; set; }
+
+        public string URL { get; set; }
+
         public List<SkillModel> Skills { get; set; }
     }
 }

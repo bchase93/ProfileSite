@@ -1,13 +1,15 @@
 ﻿@model List<ExperienceModel>
 
-<div class="row">
-        @foreach (var job in Model)
-        {
-        <h3 class="text-emphasis"><a href="@job.URL" target="_blank">@job.Title</a></h3>
-            <p>@job.Description</p>
+@foreach (var job in Model)
+{
+    <div class="row experience-wrap my-5">
+        <h4 class="text-emphasis"><a href="@job.URL" target="_blank">@job.Title</a></h4>
+        <p>@job.Description</p>
+        <ul class="skills-wrap">
             @foreach (var skill in job.Skills)
             {
-                <p>@skill.Name</p>
+                <li class="skill">@skill.Name</li>
             }
-        }
-</div>
+        </ul>
+    </div>
+}

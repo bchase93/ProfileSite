@@ -5,16 +5,19 @@
 }
 
 <div class="row glow-bg">
-    <div class="col-lg-6">
-        <h1 class="text-emphasis">Brandon Chase</h1>
-        <h3 class="text-emphasis">Full-Stack Software Developer</h3>
-        <h4>3+ years developing with ASP.NET</h4>
+    <div class="col-lg-6 my-5">
+        <div class="hero-section">
+            <h1 class="text-emphasis">Brandon Chase</h1>
+            <h2 class="text-emphasis">Full-Stack Software Developer</h2>
+            <h3>3+ years developing with ASP.NET</h3>
+            <a class="btn btn-outline-portfolio mt-3" href="~/files/Brandon Chase - Software Developer.docx.pdf" download>Resume</a>
+        </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 my-5">
         @await Html.PartialAsync("_Intro")
         @await Html.PartialAsync("_Experience.cshtml", Model.Experience)
         <div class="mt-3">
-            
+            <p>Built with ASP.NET MVC in Visual Studio. Deployed on Azure</p>
         </div>
     </div>
 </div>

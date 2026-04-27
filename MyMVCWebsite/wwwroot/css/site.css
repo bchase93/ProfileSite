@@ -1,3 +1,5 @@
+/********************************* THIS FIRST BIT OF CSS CAME WITH EVERYTHING *********************************/
+
 html {
   font-size: 14px;
 }
@@ -32,12 +34,42 @@ body {
 
 
 
-/* My CSS starts here */
+/********************************* MY CSS STARTS HERE *********************************/
+/* CSS Variables */
+:root {
+    --portfolio-primary: #0A241E; /* global scope */
+    --portfolio-primary-light: #13463B; /* global scope */
+    --portfolio-accent: #fff; /* global scope */
+}
+
+.btn-outline-portfolio {
+    --bs-btn-color: var(--portfolio-accent);
+    --bs-btn-border-color: var(--portfolio-accent);
+    --bs-btn-hover-color: var(--portfolio-primary);
+    --bs-btn-hover-bg: var(--portfolio-accent);
+    --bs-btn-hover-border-color: var(--portfolio-accent);
+}
+
+
+
 
 /* General Overrides */
 body {
-    background-color: #18251B;
+    background-color: var(--portfolio-primary);
     color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1rem;
 }
 
 a {
@@ -45,12 +77,31 @@ a {
     color: white;
 }
 
+ul {
+    list-style: none;
+}
+
+
+/* Bootstrap Overrides */
+.container {
+    padding-top: 50px;
+}
+
+.btn-outline-brand {
+    background
+}
 /* Custom Classes */
 
-.background-2 {
+/*.background-2 {
     background-color: #222222
-}
+}*/
 
 .text-emphasis {
     color: #fff;
+    font-weight: bold;
+}
+
+.hero-section {
+    position: sticky;
+    top: 3rem;
 }

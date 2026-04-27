@@ -1,3 +1,0 @@
-Replace this file with your PDF resume named Resume.pdf or update the link in the view to point to your file.
-
-This placeholder exists so the download link has a file to serve during development.

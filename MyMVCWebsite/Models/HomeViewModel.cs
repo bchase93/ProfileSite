@@ -4,6 +4,7 @@
     {
         //public IReadOnlyList<SkillModel> Skills { get; set; }
         public IReadOnlyList<ExperienceModel> Experience { get; set; }
+        public IReadOnlyList<ProjectModel> Projects { get; set; }
 
         public string IntroText { get; set; }
     }

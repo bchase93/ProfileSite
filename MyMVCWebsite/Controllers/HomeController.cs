@@ -69,7 +69,7 @@ namespace MyMVCWebsite.Controllers
                 "to building internal tools in the back-end. Collaborate with a team of developers using Agile methodology, " +
                 "as well as work with project managers and executives closely on various projects." +
                 " Projects include redesigning and rebuilding the company homepage," +
-                " developing internal tools, and replacing a third-party service with an " +
+                " developing internal tools, and helping replace a third-party service with an " +
                 "in-house solution that saved the company over $200,000 annually.",
                 URL = "https://chalkcouture.com",
                 Skills = new List<SkillModel>()
@@ -106,7 +106,7 @@ namespace MyMVCWebsite.Controllers
                 URL = "",
                 Skills = new List<SkillModel>()
                 {
-                    new SkillModel() { Name = "Leadership", Proficiency = 1 },
+                    new SkillModel() { Name = "Management", Proficiency = 1 },
                 }
             };
 

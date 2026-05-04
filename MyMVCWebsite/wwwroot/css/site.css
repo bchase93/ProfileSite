@@ -37,8 +37,10 @@ body {
 /********************************* MY CSS STARTS HERE *********************************/
 /* CSS Variables */
 :root {
-    --portfolio-primary: #0A241E; /* global scope */
-    --portfolio-primary-light: #13463B; /* global scope */
+    /*--portfolio-primary: #0A241E;*/ /* global scope */
+    --portfolio-primary: #0F423B; /* global scope */
+    /*--portfolio-primary-light: #13463B;*/ /* global scope */
+    --portfolio-primary-light: #166056; /* global scope */
     --portfolio-accent: #fff; /* global scope */
 }
 

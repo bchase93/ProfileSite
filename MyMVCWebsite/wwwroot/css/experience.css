@@ -12,3 +12,7 @@
     background-color: var(--portfolio-primary-light);
     color: var(--portfolio-accent);
 }
+
+.date-range {
+    font-size: .8rem;
+}

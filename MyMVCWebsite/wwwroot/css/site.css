@@ -37,11 +37,11 @@ body {
 /********************************* MY CSS STARTS HERE *********************************/
 /* CSS Variables */
 :root {
-    /*--portfolio-primary: #0A241E;*/ /* global scope */
-    --portfolio-primary: #0F423B; /* global scope */
-    /*--portfolio-primary-light: #13463B;*/ /* global scope */
-    --portfolio-primary-light: #166056; /* global scope */
-    --portfolio-accent: #fff; /* global scope */
+    /*--portfolio-primary: #0A241E;*/ 
+    --portfolio-primary: #0F423B; 
+    /*--portfolio-primary-light: #13463B;*/ 
+    --portfolio-primary-light: #166056; 
+    --portfolio-accent: #fff; 
 }
 
 .btn-outline-portfolio {
@@ -90,14 +90,9 @@ ul {
 }
 
 .btn-outline-brand {
-    background
+/*    background*/
 }
 /* Custom Classes */
-
-/*.background-2 {
-    background-color: #222222
-}*/
-
 .text-emphasis {
     color: #fff;
     font-weight: bold;
@@ -106,4 +101,14 @@ ul {
 .hero-section {
     position: sticky;
     top: 3rem;
+}
+
+.links-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.links-wrap i {
+    font-size: 2rem;
 }

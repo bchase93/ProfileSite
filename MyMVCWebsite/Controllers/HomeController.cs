@@ -73,7 +73,7 @@ namespace MyMVCWebsite.Controllers
                 " developing internal tools, and helping replace a third-party service with an " +
                 "in-house solution that saved the company over $200,000 annually.",
                 URL = "https://chalkcouture.com",
-                EmploymentDates = "DEC 2019 - DEC 2019",
+                EmploymentDates = "JUL 2022 - PRESENT",
                 Skills = new List<SkillModel>()
                 {
                     new SkillModel() { Name = "ASP.NET", Proficiency = 1 },
@@ -91,7 +91,7 @@ namespace MyMVCWebsite.Controllers
                 "including helping rebuild several from scratch. " +
                 "Assisted in the development of a custom-made Wordpress theme for the company using HTML, CSS including Bootstrap, JavaScript, jQuery and PHP.",
                 URL = "https://conceptmrk.com",
-                EmploymentDates = "DEC 2019 - DEC 2019",
+                EmploymentDates = "JUL-2021 - MAY 2022",
                 Skills = new List<SkillModel>()
                 {
                     new SkillModel() { Name = "Wordpress", Proficiency = 1 },
@@ -107,7 +107,7 @@ namespace MyMVCWebsite.Controllers
                 Description = "Led a team of 5–10 employees through training, communication, and positive reinforcement. " +
                 "While not a software development role, it helped strengthen my leadership and teamwork skills.",
                 URL = "",
-                EmploymentDates = "DEC 2019 - DEC 2019",
+                EmploymentDates = "FEB 2019 - JUL 2021",
                 Skills = new List<SkillModel>()
                 {
                     new SkillModel() { Name = "Management", Proficiency = 1 },
@@ -126,14 +126,16 @@ namespace MyMVCWebsite.Controllers
             var project1 = new ProjectModel()
             {
                 Title = "Rolling Hills Glencairn Community Website",
-                Description = "Build, maintain and add features throughout the company website, from front-end UX/UI improvements, " +
-                "to building internal tools in the back-end. Collaborate with a team of developers using Agile methodology, " +
-                "as well as work with project managers and executives closely on various projects." +
-                " Projects include redesigning and rebuilding the company homepage," +
-                " developing internal tools, and helping replace a third-party service with an " +
-                "in-house solution that saved the company over $200,000 annually.",
+                Description = "This was the first production website I built and deployed while finishing my senior year of college. " +
+                "The goal was to create a centralized hub for a residential community organization to share information, " +
+                "communicate with residents, and provide easy access to important documents. " +
+                "I designed and implemented the site using WordPress, focusing on clear navigation and usability for non-technical users. " +
+                "The site allows community members to quickly find resources and stay informed without needing direct communication for every update. " +
+                "Although my design and development skills have grown significantly since building this project, " +
+                "it remains a meaningful milestone as my first live website, one that continues to be actively used today.",
                 URL = "https://rollinghillsglencairn.com/",
-                ProjectDate = "DEC 2019",
+                ProjectDate = "APR 2020",
+                ImageUrl = "/files/imgs/RollingHillsGlencairnHomepage.png",
                 Skills = new List<SkillModel>()
                 {
                     new SkillModel() { Name = "WordPress", Proficiency = 1 },

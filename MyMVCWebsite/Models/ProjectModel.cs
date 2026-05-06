@@ -13,5 +13,8 @@ namespace MyMVCWebsite.Models
         public string URL { get; set; }
 
         public List<SkillModel> Skills { get; set; }
+
+        // Relative URL to an image in the site's imgs folder (e.g. wwwroot/imgs)
+        public string ImageUrl { get; set; }
     }
 }

@@ -16,3 +16,28 @@
 .date-range {
     font-size: .8rem;
 }
+
+/* Hover Base behavior */
+.hover-scale-sm,
+.hover-scale-md,
+.hover-scale-lg {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    will-change: transform;
+}
+
+/* Small */
+.hover-scale-sm:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* Medium */
+.hover-scale-md:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* Large no box-shadow*/
+.hover-scale-lg:hover {
+    transform: scale(1.03);
+}  

@@ -65,7 +65,7 @@ namespace MyMVCWebsite.Controllers
             var experience = new List<ExperienceModel>();
             var experience1 = new ExperienceModel()
             {
-                Title = "Software Developer - Chalk Couture",
+                Title = "Junior Software Developer - Chalk Couture",
                 Description = "Build, maintain and add features throughout the company website, from front-end UX/UI improvements, " +
                 "to building internal tools in the back-end. Collaborate with a team of developers using Agile methodology, " +
                 "as well as work with project managers and executives closely on various projects." +
